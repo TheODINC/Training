@@ -2,11 +2,76 @@ header {
     font-size: 2em;
     color: white;
     text-align: center;
-    background: #900;
+    background: #0099FF;
     padding: 0.2em;
 }
 
 summary {
 	padding: 0.1em;
 	font-size: 1.2em;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+body {
+	margin: 10px;
+}
+
+.redtext {
+	color: #FF0000;
+}
+
+a {
+	color: #009900;
+}
+
+a:link {
+	color: #000099;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #CCCCCC;
+}
+
+a:active {
+	text-decoration: none;
+
+}
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.menu a:link {
+	color: #336600;
+	text-decoration: none;
+}
+
+.menu a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+
+.menu a:active {
+	color: #666666;
+	text-decoration: none;
 }
